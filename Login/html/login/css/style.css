@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Lora');
 
 body {
   
-  background: url(../img/login.jpg) no-repeat center center fixed;
+  background: url(../../../img/login.jpg) no-repeat center center fixed;
   background-size: cover;
   max-height: 100%;
   max-width: 100%;
@@ -18,7 +17,7 @@ h1{ font-size:28px;}
 
 .form h1 {
 	color: #7E7E7E;
-	font: bold 29px Lora, sans-serif;
+	font: bold 29px Helvetica, Arial, sans-serif;
 	letter-spacing: -0.05em;
 	line-height: 20px;
 	margin: 5px 0 25px;
@@ -36,30 +35,58 @@ h1{ font-size:28px;}
   background: #FFFFFF;
   max-width: 360px;
   margin: 20% auto 20% auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-top: 35px;
+  padding-bottom: 75px;
+  padding-left: 45px;
+  padding-right: 45px;
   text-align: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Raleway", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 .form button {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #9B9BC0;
-  width: 80%;
+  background: #8c8cc4;
+  width: 30%;
   border: 0;
   padding: 12px;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 14px;
   cursor: pointer;
   border-radius: 5px;
-  float: contour;
-  margin: 10px 0 10px;
+  float: right;
+  margin: 0 0 0 0;
 }
 
 .form button:hover,.form button:active,.form button:focus {
   background: #8c8cc9;
+}
+
+.form .message {
+  margin: 0 0 0;
+  color: #b3b3b3;
+  font-size: 13px;
+  float: left;
+}
+
+.form .message a {
+  color: #61618F;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
 }
