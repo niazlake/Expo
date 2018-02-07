@@ -2,41 +2,54 @@
     require "db.php";
 ?>
 <?php if(isset($_SESSION['logged_user']) ) : ?>
-  <!DOCTYPE html>
-  <html lang="en">
-      <head>
-          <meta charset="UTF-8">
-          <title>InnopolisLibrari</title>
-          <link rel="stylesheet" href="html/mainpage/css/bootstrap.css">
-          <link rel="stylesheet" href="html/mainpage/css/style.css">
-      </head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>InnopolisLibrari</title>
+        <!--<link rel="stylesheet" href="../../css/bootstrap.css">-->
+        <link rel="stylesheet" href="login/html/mainpage/css/style.css">
+    </head>
 
-      <body>
-          <div class="main-page">
-              <div class="logo1">
-                  <img class="imglogo1" src="img/logo1.jpg">
-              </div>
+    <body>
+    <div class="control-panel">
+        <div>
+            <img class="logo" src="img/logo.jpg" height="100%" width="100%">
+        </div>
+        <hr>
+        <div class="avatar">
+            <img src="img/no-avatar.jpg" height="100%" width="100%">
+        </div>
 
-              <div class="avatar">
-                  <img class="imgavatar" src="img/no-avatar.jpg" height="100%" width="100%">
-              </div>
+        <div class="username">
+            <h1><?php echo $_SESSION['logged_user']->login;?>!</h1>
+        </div>
+        <hr>
+        <div class="list-option">
+            <div><a href="#" title="Does not work yet"><h2><img src="img/logo2.jpg">My library </h2></a></div>
+            <div><a href="#" title="Does not work yet"><h2><img src="img/logo3.jpg">Booking</h2></a></div>
+            <div><a href="#" title="Does not work yet"><h2><img src="img/logo4.jpg">Return</h2></a></div>
+        </div>
+        <div class="log-out">
+            <a href="logout.php"><h2>Log out</h2></a>
+        </div>
+    </div>
+    <div class="main-page">
+        <div class="top-panel">
+            <button>News</button>
+            <button>Books</button>
+            <button>Articles</button>
+            <button>A/V</button>
+            <button>Help</button>
+        </div>
+        <div class="cont">
+            <h1>OOPS</h1>
+            <h1>We don't have news</h1>
+        </div>
+    </div>
 
-              <div class="username">
-                  <h1>Username</h1>
-              </div>
-
-              <div class="list">
-                  <h1>My list</h1>
-                  <a href="#" title="Does not work yet"><h2>Booking</h2></a>
-              </div>
-              <div class="username">
-                  <a href="logout.php">Logout</a>
-              </div>
-
-          </div>
-      </body>
-  </html>
-
+    </body>
+    </html>
 <?php else :?>
   <!DOCTYPE html>
   <html lang="en">
