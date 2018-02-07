@@ -37,43 +37,37 @@
             $user->password = password_hash($data['password'], PASSWORD_DEFAULT);
             R::store($user);
             echo '<div style = "color:#64ff2e;">Вы успешно зарегались</div><hr>';
+            Header("Location: index.php");
         }
         else{
             echo '<div style = "color:#ff0000;">' .array_shift($errors).'</div><hr>';
         }
     }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> InnopolisLibrary</title>
+    <link rel="stylesheet" href="html/signup/css/bootstrap.css">
+    <link rel="stylesheet" href="html/signup/css/style.css">
+</head>
 
-<form action="signup.php" method="POST">
+<body>
+    <div class="registration-page">
+        <div class="registration-form">
+            <h1>Sign up</h1>
+            <form class="register-form" action="signup.php" method="POST">
+                <input type="text" required placeholder="username" name="login" value="<?php echo @$data['login']; ?>"/>
+                <input type="email" required placeholder="mail" name="email" value="<?php echo @$data['email']; ?>" />
+                <input type="password" required placeholder="password"  name="password"/>
+                <input type="password" required placeholder="password repeat" name="password_2"/>
+                <button type="submit" name ="do_signup">Next</button>
 
-    <p>
+            </form>
+        </div>
+    </div>
+</body>
 
-        <p><strong>Ваш логин</strong></p>
-
-        <input type="text" name="login" value="<?php echo @$data['login']; ?>">
-
-    </p>
-
-    <p>
-
-        <strong>Ваш Email</strong></p>
-
-        <input type="email" name="email" value="<?php echo @$data['email']; ?>">
-
-    </p>
-
-    <p>
-
-        <strong>Ваш Пароль</strong></p>
-
-        <input type="password" name="password">
-
-    </p>
-
-    <p>
-        <strong>Введите пароль еще раз</strong></p>
-        <input type="password" name="password_2">
-    </p>
-
-    <button type="submit" name ="do_signup">Зарегистрироваться</button>
-</form>
+</html>
