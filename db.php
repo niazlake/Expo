@@ -6,6 +6,6 @@
 * Time: 16:22
 */
 require 'libs/rb.php';
-R::setup('mysql:host=localhost; dbname=id313322_accounts','id313322_niaz', '123456');
+R::setup('mysql:host=localhost; dbname=Accounts','root');
 
 session_start();
