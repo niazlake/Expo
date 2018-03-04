@@ -5,6 +5,7 @@
  * Date: 13.02.2018
  * Time: 20:53
  */
+require "Init.php";
 require 'libs/rb.php';
 R::setup('mysql:host=localhost; dbname=books','root');
 
@@ -13,7 +14,9 @@ $data = $_POST;
 /*
 $user = R::findOne('book', 'title = ?', array($data['books']));
 */
-
+$First_main = "FirstUser";
+$Herer_now = "SecondUser";
+if ($First_main )
 if (!defined('T_ML_COMMENT')) {
    define('T_ML_COMMENT', T_COMMENT);
 } else {
@@ -44,16 +47,8 @@ foreach ($tokens as $token) {
    }
 }
 
-
-if (isset($data['do_login1'])) {
     echo '<div style = "color:#ff4d24;">Not find a copy book</div><hr>';
-}
+
 
 
 ?>
-
-<h1>Test Case 1</h1>
-<form action="TS1.php" method="POST">
-    <input type="text" required placeholder="Name of book" name="patron1">
-    <button type="submit" name="do_login1">Enter</button>
-</form>

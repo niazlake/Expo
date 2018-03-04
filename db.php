@@ -6,6 +6,8 @@
 * Time: 16:22
 */
 require 'libs/rb.php';
-R::setup('mysql:host=localhost; dbname=Accounts','root');
-
+R::setup('mysql:host=127.0.0.1; dbname=Accounts','root', '');
+if( !R::testConnections() ){
+    exit('Нету подключения');
+}
 session_start();
