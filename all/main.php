@@ -1,36 +1,9 @@
 <?php
 
 namespace RedBeanPHP {
-
-/**
- * RedBean Logging interface.
- * Provides a uniform and convenient logging
- * interface throughout RedBeanPHP.
- *
- * @file    RedBean/Logging.php
- * @author  Gabor de Mooij and the RedBeanPHP Community
- * @license BSD/GPLv2
- *
- * @copyright
- * copyright (c) G.J.G.T. (Gabor) de Mooij and the RedBeanPHP Community
- * This source file is subject to the BSD/GPLv2 License that is bundled
- * with this source code in the file license.txt.
- */
 interface Logger
 {
-	/**
-	 * A logger (for PDO or OCI driver) needs to implement the log method.
-	 * The log method will receive logging data. Note that the number of parameters is 0, this means
-	 * all parameters are optional and the number may vary. This way the logger can be used in a very
-	 * flexible way. Sometimes the logger is used to log a simple error message and in other
-	 * situations sql and bindings are passed.
-	 * The log method should be able to accept all kinds of parameters and data by using
-	 * functions like func_num_args/func_get_args.
-	 *
-	 * @param string $message, ...
-	 *
-	 * @return void
-	 */
+
 	public function log();
 }
 }
@@ -40,46 +13,14 @@ namespace RedBeanPHP\Logger {
 use RedBeanPHP\Logger as Logger;
 use RedBeanPHP\RedException as RedException;
 
-/**
- * Logger. Provides a basic logging function for RedBeanPHP.
- *
- * @file    RedBeanPHP/Logger.php
- * @author  Gabor de Mooij and the RedBeanPHP Community
- * @license BSD/GPLv2
- *
- * @copyright
- * copyright (c) G.J.G.T. (Gabor) de Mooij
- * This source file is subject to the BSD/GPLv2 License that is bundled
- * with this source code in the file license.txt.
- */
 class RDefault implements Logger
 {
-	/**
-	 * Logger modes
-	 */
 	const C_LOGGER_ECHO  = 0;
 	const C_LOGGER_ARRAY = 1;
-
-	/**
-	 * @var integer
-	 */
 	protected $mode = 0;
 
-	/**
-	 * @var array
-	 */
 	protected $logs = array();
 
-	/**
-	 * Default logger method logging to STDOUT.
-	 * This is the default/reference implementation of a logger.
-	 * This method will write the message value to STDOUT (screen) unless
-	 * you have changed the mode of operation to C_LOGGER_ARRAY.
-	 *
-	 * @param $message (optional) message to log (might also be data or output)
-	 *
-	 * @return void
-	 */
 	public function log()
 	{
 		if ( func_num_args() < 1 ) return;
@@ -104,40 +45,18 @@ class RDefault implements Logger
 		}
 	}
 
-	/**
-	 * Returns the internal log array.
-	 * The internal log array is where all log messages are stored.
-	 *
-	 * @return array
-	 */
+
 	public function getLogs()
 	{
 		return $this->logs;
 	}
 
-	/**
-	 * Clears the internal log array, removing all
-	 * previously stored entries.
-	 *
-	 * @return self
-	 */
 	public function clear()
 	{
 		$this->logs = array();
 		return $this;
 	}
 
-	/**
-	 * Selects a logging mode.
-	 * There are several options available.
-	 *
-	 * * C_LOGGER_ARRAY - log silently, stores entries in internal log array only
-	 * * C_LOGGER_ECHO  - also forward log messages directly to STDOUT
-	 *
-	 * @param integer $mode mode of operation for logging object
-	 *
-	 * @return self
-	 */
 	public function setMode( $mode )
 	{
 		if ($mode !== self::C_LOGGER_ARRAY && $mode !== self::C_LOGGER_ECHO ) {
@@ -147,16 +66,6 @@ class RDefault implements Logger
 		return $this;
 	}
 
-	/**
-	 * Searches for all log entries in internal log array
-	 * for $needle and returns those entries.
-	 * This method will return an array containing all matches for your
-	 * search query.
-	 *
-	 * @param string $needle phrase to look for in internal log array
-	 *
-	 * @return array
-	 */
 	public function grep( $needle )
 	{
 		$found = array();
@@ -174,39 +83,11 @@ use RedBeanPHP\Logger as Logger;
 use RedBeanPHP\Logger\RDefault as RDefault;
 use RedBeanPHP\RedException as RedException;
 
-/**
- * Debug logger.
- * A special logger for debugging purposes.
- * Provides debugging logging functions for RedBeanPHP.
- *
- * @file    RedBeanPHP/Logger/RDefault/Debug.php
- * @author  Gabor de Mooij and the RedBeanPHP Community
- * @license BSD/GPLv2
- *
- * @copyright
- * copyright (c) G.J.G.T. (Gabor) de Mooij
- * This source file is subject to the BSD/GPLv2 License that is bundled
- * with this source code in the file license.txt.
- */
 class Debug extends RDefault implements Logger
 {
-	/**
-	 * @var integer
-	 */
 	private $strLen = 40;
-
-	/**
-	 * Writes a query for logging with all bindings / params filled
-	 * in.
-	 *
-	 * @param string $newSql      the query
-	 * @param array  $newBindings the bindings to process (key-value pairs)
-	 *
-	 * @return string
-	 */
 	private function writeQuery( $newSql, $newBindings )
 	{
-		//avoid str_replace collisions: slot1 and slot10 (issue 407).
 		uksort( $newBindings, function( $a, $b ) {
 			return ( strlen( $b ) - strlen( $a ) );
 		} );
@@ -220,14 +101,6 @@ class Debug extends RDefault implements Logger
 		return $newStr;
 	}
 
-	/**
-	 * Fills in a value of a binding and truncates the
-	 * resulting string if necessary.
-	 *
-	 * @param mixed $value bound value
-	 *
-	 * @return string
-	 */
 	protected function fillInValue( $value )
 	{
 		if ( is_null( $value ) ) $value = 'NULL';
@@ -244,18 +117,6 @@ class Debug extends RDefault implements Logger
 		return $value;
 	}
 
-	/**
-	 * Dependending on the current mode of operation,
-	 * this method will either log and output to STDIN or
-	 * just log.
-	 *
-	 * Depending on the value of constant PHP_SAPI this function
-	 * will format output for console or HTML.
-	 *
-	 * @param string $str string to log or output and log
-	 *
-	 * @return void
-	 */
 	protected function output( $str )
 	{
 		$this->logs[] = $str;
@@ -282,14 +143,6 @@ class Debug extends RDefault implements Logger
 		}
 	}
 
-	/**
-	 * Normalizes the slots in an SQL string.
-	 * Replaces question mark slots with :slot1 :slot2 etc.
-	 *
-	 * @param string $sql sql to normalize
-	 *
-	 * @return string
-	 */
 	protected function normalizeSlots( $sql )
 	{
 		$newSql = $sql;
@@ -310,8 +163,6 @@ class Debug extends RDefault implements Logger
 	}
 
 	/**
-	 * Normalizes the bindings.
-	 * Replaces numeric binding keys with :slot1 :slot2 etc.
 	 *
 	 * @param array $bindings bindings to normalize
 	 *
@@ -382,35 +233,11 @@ class Debug extends RDefault implements Logger
 
 namespace RedBeanPHP {
 
-/**
- * Interface for database drivers.
- * The Driver API conforms to the ADODB pseudo standard
- * for database drivers.
- *
- * @file       RedBeanPHP/Driver.php
- * @author     Gabor de Mooij and the RedBeanPHP Community
- * @license    BSD/GPLv2
- *
- * @copyright
- * copyright (c) G.J.G.T. (Gabor) de Mooij and the RedBeanPHP Community
- * This source file is subject to the BSD/GPLv2 License that is bundled
- * with this source code in the file license.txt.
- */
 interface Driver
 {
-	/**
-	 * Runs a query and fetches results as a multi dimensional array.
-	 *
-	 * @param string $sql      SQL query to execute
-	 * @param array  $bindings list of values to bind to SQL snippet
-	 *
-	 * @return array
-	 */
 	public function GetAll( $sql, $bindings = array() );
 
 	/**
-	 * Runs a query and fetches results as a column.
-	 *
 	 * @param string $sql      SQL query to execute
 	 * @param array  $bindings list of values to bind to SQL snippet
 	 *
@@ -419,8 +246,6 @@ interface Driver
 	public function GetCol( $sql, $bindings = array() );
 
 	/**
-	 * Runs a query and returns results as a single cell.
-	 *
 	 * @param string $sql      SQL query to execute
 	 * @param array  $bindings list of values to bind to SQL snippet
 	 *
@@ -893,12 +718,6 @@ class RPDO implements Driver
 	}
 
 	/**
-	 * Establishes a connection to the database using PHP\PDO
-	 * functionality. If a connection has already been established this
-	 * method will simply return directly. This method also turns on
-	 * UTF8 for the database and PDO-ERRMODE-EXCEPTION as well as
-	 * PDO-FETCH-ASSOC.
-	 *
 	 * @return void
 	 */
 	public function connect()
@@ -931,11 +750,6 @@ class RPDO implements Driver
 	}
 
 	/**
-	 * Directly sets PDO instance into driver.
-	 * This method might improve performance, however since the driver does
-	 * not configure this instance terrible things may happen... only use
-	 * this method if you are an expert on RedBeanPHP, PDO and UTF8 connections and
-	 * you know your database server VERY WELL.
 	 *
 	 * @param PDO $pdo PDO instance
 	 *
@@ -1222,9 +1036,6 @@ class RPDO implements Driver
 	}
 
 	/**
-	 * Returns the maximum value treated as integer parameter
-	 * binding.
-	 *
 	 * This method is mainly for testing purposes but it can help
 	 * you solve some issues relating to integer bindings.
 	 *
@@ -1236,14 +1047,7 @@ class RPDO implements Driver
 	}
 
 	/**
-	 * Sets a query to be executed upon connecting to the database.
-	 * This method provides an opportunity to configure the connection
-	 * to a database through an SQL-based interface. Objects can provide
-	 * an SQL string to be executed upon establishing a connection to
-	 * the database. This has been used to solve issues with default
-	 * foreign key settings in SQLite3 for instance, see Github issues:
-	 * #545 and #548.
-	 *
+
 	 * @param string $sql SQL query to run upon connecting to database
 	 *
 	 * @return self
@@ -1522,11 +1326,6 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	}
 
 	/**
-	 * Enables or disables auto-resolving fetch types.
-	 * Auto-resolving aliased parent beans is convenient but can
-	 * be slower and can create infinite recursion if you
-	 * used aliases to break cyclic relations in your domain.
-	 *
 	 * @param boolean $automatic TRUE to enable automatic resolving aliased parents
 	 *
 	 * @return void
@@ -1537,12 +1336,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	}
 
 	/**
-	 * Sets a meta property for all beans. This is a quicker way to set
-	 * the meta properties for a collection of beans because this method
-	 * can directly access the property arrays of the beans.
-	 * This method returns the beans.
-	 *
-	 * @param array  $beans    beans to set the meta property of
+     * @param array  $beans    beans to set the meta property of
 	 * @param string $property property to set
 	 * @param mixed  $value    value
 	 *
@@ -1558,17 +1352,6 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	}
 
 	/**
-	 * Parses the join in the with-snippet.
-	 * For instance:
-	 *
-	 * <code>
-	 * $author
-	 * 	->withCondition(' @joined.detail.title LIKE ? ')
-	 *  ->ownBookList;
-	 * </code>
-	 *
-	 * will automatically join 'detail' on book to
-	 * access the title field.
 	 *
 	 * @note this feature requires Narrow Field Mode and Join Feature
 	 * to be both activated (default).
@@ -1840,9 +1623,6 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	}
 
 	/**
-	 * Injects the properties of another bean but keeps the original ID.
-	 * Just like import() but keeps the original ID.
-	 * Chainable.
 	 *
 	 * @param OODBBean $otherBean the bean whose properties you would like to copy
 	 *
@@ -1860,10 +1640,6 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	}
 
 	/**
-	 * Exports the bean as an array.
-	 * This function exports the contents of a bean to an array and returns
-	 * the resulting array.
-	 *
 	 * @param boolean $meta    set to TRUE if you want to export meta data as well
 	 * @param boolean $parents set to TRUE if you want to export parents as well
 	 * @param boolean $onlyMe  set to TRUE if you want to export only this bean
@@ -2045,17 +1821,6 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	}
 
 	/**
-	 * Tells the bean to (re)load the following list without any
-	 * conditions. If you have an ownList or sharedList with a
-	 * condition you can use this method to reload the entire list.
-	 *
-	 * Usage:
-	 *
-	 * <code>
-	 * $bean->with( ' LIMIT 3 ' )->ownPage; //Just 3
-	 * $bean->all()->ownPage; //Reload all pages
-	 * </code>
-	 *
 	 * @return self
 	 */
 	public function all()
