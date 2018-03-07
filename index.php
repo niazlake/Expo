@@ -50,6 +50,7 @@
 
     </body>
     </html>
+
 <?php else :?>
   <!DOCTYPE html>
   <html lang="en">

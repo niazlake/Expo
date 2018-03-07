@@ -1,6 +1,6 @@
 <?php
 require "db.php";
-require "Init.php";
+
 $data = $_POST;
 if(isset($data['do_login'])){
     $errors = array();
