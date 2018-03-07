@@ -50,6 +50,7 @@ Address: Via del Corso, 22
 Phone Number: 30003
 Lib. card ID: 1100
 Type: Student';
+
 public function tag( OODBBean $bean, $tagList = NULL )
 {
     if ( is_null( $tagList ) ) {

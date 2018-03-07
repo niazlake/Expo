@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36cf4763-f531-4e53-bc99-2b50879f8d7c" name="Default" comment="" />
+    <list default="true" id="36cf4763-f531-4e53-bc99-2b50879f8d7c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Test cases/Init.php" afterPath="$PROJECT_DIR$/Test cases/Init.php" />
+      <change beforePath="$PROJECT_DIR$/all/main.php" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TS3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test cases/TS3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TS4.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Test cases/TS7.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -71,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TS9.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TS9.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS9.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+            <state relative-caret-position="486">
+              <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -84,56 +88,56 @@
       <file leaf-file-name="rb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/rb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="10215" column="5" lean-forward="true" selection-start-line="10197" selection-start-column="4" selection-end-line="10215" selection-end-column="5" />
+            <state relative-caret-position="4641">
+              <caret line="11136" column="0" lean-forward="false" selection-start-line="11136" selection-start-column="0" selection-end-line="11136" selection-end-column="0" />
               <folding>
-                <marker date="1520424611072" expanded="true" signature="6813:6822" ph="..." />
-                <marker date="1520424611072" expanded="true" signature="7463:7474" ph="..." />
-                <marker date="1520424611072" expanded="true" signature="140059:140186" ph="INSERT INTO ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="140456:140497" ph="INSERT INTO ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="142807:142838" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="143491:143508" ph="UPDATE ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="146043:146105" ph="SELECT ${{$f... " />
-                <marker date="1520424611072" expanded="true" signature="146581:146613" ph="SELECT ${{$t... " />
-                <marker date="1520424611072" expanded="true" signature="147630:148057" ph="SELECT ${{$d... " />
-                <marker date="1520424611072" expanded="true" signature="148162:148396" ph="SELECT ${{$d... " />
-                <marker date="1520424611072" expanded="true" signature="149237:149390" ph="SELECT ${{$l... " />
-                <marker date="1520424611072" expanded="true" signature="149520:149621" ph="SELECT ${{$l... " />
-                <marker date="1520424611072" expanded="true" signature="150226:150482" ph="SELECT ${{$t... " />
-                <marker date="1520424611072" expanded="true" signature="151027:151057" ph="SELECT COUNT... $" />
-                <marker date="1520424611072" expanded="true" signature="151566:151802" ph="SELECT COUNT... $" />
-                <marker date="1520424611072" expanded="true" signature="151926:152076" ph="SELECT COUNT... $" />
-                <marker date="1520424611072" expanded="true" signature="152553:152574" ph="DELETE FROM $... " />
-                <marker date="1520424611072" expanded="true" signature="152938:153020" ph="DELETE FROM $... " />
-                <marker date="1520424611072" expanded="true" signature="153114:153165" ph="DELETE FROM $... " />
-                <marker date="1520424611072" expanded="true" signature="153549:153591" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="157799:158901" ph="SELECT infor... key_column_usage" />
-                <marker date="1520424611072" expanded="true" signature="161246:161385" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520424611072" expanded="true" signature="164470:164553" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="166161:166309" ph="ALTER TABLE $... " />
-                <marker date="1520424611072" expanded="true" signature="167379:167404" ph="DROP TABLE I... " />
-                <marker date="1520424611072" expanded="true" signature="169988:170019" ph="DROP TABLE I... " />
-                <marker date="1520424611072" expanded="true" signature="170259:170304" ph="INSERT INTO tmp_backup... " />
-                <marker date="1520424611072" expanded="true" signature="170282:170304" ph="SELECT * FRO... ${$table}" />
-                <marker date="1520424611072" expanded="true" signature="170355:170374" ph="DROP TABLE `... " />
-                <marker date="1520424611072" expanded="true" signature="170780:170869" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520424611072" expanded="true" signature="171267:171312" ph="INSERT INTO `${$table}`... " />
-                <marker date="1520424611072" expanded="true" signature="171288:171312" ph="SELECT * FRO... tmp_backup" />
-                <marker date="1520424611072" expanded="true" signature="171326:171347" ph="DROP TABLE t... " />
-                <marker date="1520424611072" expanded="true" signature="175876:175911" ph="ALTER TABLE `${$table}`... " />
-                <marker date="1520424611072" expanded="true" signature="176505:176585" ph="SELECT name sqlite_master" />
-                <marker date="1520424611072" expanded="true" signature="176727:176787" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520424611072" expanded="true" signature="178760:178772" ph="DELETE FROM ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="179207:179232" ph="DROP TABLE I... " />
-                <marker date="1520424611072" expanded="true" signature="179312:179337" ph="DROP TABLE I... " />
-                <marker date="1520424611072" expanded="true" signature="181479:183502" ph="SELECT infor... key_column_usage" />
-                <marker date="1520424611072" expanded="true" signature="185284:185385" ph="SELECT table... tables" />
-                <marker date="1520424611072" expanded="true" signature="185540:185583" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520424611072" expanded="true" signature="185761:185899" ph="SELECT colum... columns" />
-                <marker date="1520424611072" expanded="true" signature="188516:188528" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520424611072" expanded="true" signature="189015:189114" ph="ALTER TABLE $... " />
-                <marker date="1520424611072" expanded="true" signature="190620:190724" ph="ALTER TABLE $... " />
-                <marker date="1520424611072" expanded="true" signature="191159:191190" ph="DROP TABLE I... " />
+                <marker date="1520433879684" expanded="true" signature="2888:2897" ph="..." />
+                <marker date="1520433879684" expanded="true" signature="3361:3372" ph="..." />
+                <marker date="1520433879684" expanded="true" signature="131514:131641" ph="INSERT INTO ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="131911:131952" ph="INSERT INTO ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="134262:134293" ph="ALTER TABLE ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="134946:134963" ph="UPDATE ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="137498:137560" ph="SELECT ${{$f... " />
+                <marker date="1520433879684" expanded="true" signature="138036:138068" ph="SELECT ${{$t... " />
+                <marker date="1520433879684" expanded="true" signature="139085:139512" ph="SELECT ${{$d... " />
+                <marker date="1520433879684" expanded="true" signature="139617:139851" ph="SELECT ${{$d... " />
+                <marker date="1520433879684" expanded="true" signature="140692:140845" ph="SELECT ${{$l... " />
+                <marker date="1520433879684" expanded="true" signature="140975:141076" ph="SELECT ${{$l... " />
+                <marker date="1520433879684" expanded="true" signature="141681:141937" ph="SELECT ${{$t... " />
+                <marker date="1520433879684" expanded="true" signature="142482:142512" ph="SELECT COUNT... $" />
+                <marker date="1520433879684" expanded="true" signature="143021:143257" ph="SELECT COUNT... $" />
+                <marker date="1520433879684" expanded="true" signature="143381:143531" ph="SELECT COUNT... $" />
+                <marker date="1520433879684" expanded="true" signature="144008:144029" ph="DELETE FROM $... " />
+                <marker date="1520433879684" expanded="true" signature="144393:144475" ph="DELETE FROM $... " />
+                <marker date="1520433879684" expanded="true" signature="144569:144620" ph="DELETE FROM $... " />
+                <marker date="1520433879684" expanded="true" signature="145004:145046" ph="ALTER TABLE ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="149254:150356" ph="SELECT infor... key_column_usage" />
+                <marker date="1520433879684" expanded="true" signature="152701:152840" ph="CREATE TABLE... ${$table}" />
+                <marker date="1520433879684" expanded="true" signature="155925:156008" ph="ALTER TABLE ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="157616:157764" ph="ALTER TABLE $... " />
+                <marker date="1520433879684" expanded="true" signature="158834:158859" ph="DROP TABLE I... " />
+                <marker date="1520433879684" expanded="true" signature="161443:161474" ph="DROP TABLE I... " />
+                <marker date="1520433879684" expanded="true" signature="161714:161759" ph="INSERT INTO tmp_backup... " />
+                <marker date="1520433879684" expanded="true" signature="161737:161759" ph="SELECT * FRO... ${$table}" />
+                <marker date="1520433879684" expanded="true" signature="161810:161829" ph="DROP TABLE `... " />
+                <marker date="1520433879684" expanded="true" signature="162235:162324" ph="CREATE TABLE... ${$table}" />
+                <marker date="1520433879684" expanded="true" signature="162722:162767" ph="INSERT INTO `${$table}`... " />
+                <marker date="1520433879684" expanded="true" signature="162743:162767" ph="SELECT * FRO... tmp_backup" />
+                <marker date="1520433879684" expanded="true" signature="162781:162802" ph="DROP TABLE t... " />
+                <marker date="1520433879684" expanded="true" signature="167331:167366" ph="ALTER TABLE `${$table}`... " />
+                <marker date="1520433879684" expanded="true" signature="167960:168040" ph="SELECT name sqlite_master" />
+                <marker date="1520433879684" expanded="true" signature="168182:168242" ph="CREATE TABLE... ${$table}" />
+                <marker date="1520433879684" expanded="true" signature="170215:170227" ph="DELETE FROM ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="170662:170687" ph="DROP TABLE I... " />
+                <marker date="1520433879684" expanded="true" signature="170767:170792" ph="DROP TABLE I... " />
+                <marker date="1520433879684" expanded="true" signature="172934:174957" ph="SELECT infor... key_column_usage" />
+                <marker date="1520433879684" expanded="true" signature="176739:176840" ph="SELECT table... tables" />
+                <marker date="1520433879684" expanded="true" signature="176995:177038" ph="CREATE TABLE... ${$table}" />
+                <marker date="1520433879684" expanded="true" signature="177216:177354" ph="SELECT colum... columns" />
+                <marker date="1520433879684" expanded="true" signature="179971:179983" ph="ALTER TABLE ${$table}... " />
+                <marker date="1520433879684" expanded="true" signature="180470:180569" ph="ALTER TABLE $... " />
+                <marker date="1520433879684" expanded="true" signature="182075:182179" ph="ALTER TABLE $... " />
+                <marker date="1520433879684" expanded="true" signature="182614:182645" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -142,24 +146,27 @@
       <file leaf-file-name="Init.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/Init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="248">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TS1.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TS1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test cases/TS1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+            <state relative-caret-position="255">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -187,9 +194,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="392" />
-    <option name="y" value="73" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="645" />
+    <option name="y" value="447" />
     <option name="width" value="991" />
     <option name="height" value="867" />
   </component>
@@ -208,28 +215,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Itp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Expo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Expo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Itp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Expo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Expo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Itp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Itp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Expo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Expo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Test cases" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -272,14 +279,15 @@
       <workItem from="1518005757595" duration="18000" />
       <workItem from="1520071064188" duration="617000" />
       <workItem from="1520358924727" duration="11742000" />
+      <workItem from="1520433022804" duration="1120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12886000" />
+    <option name="totallyTimeSpent" value="14006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="392" y="73" width="991" height="867" extended-state="1" />
+    <frame x="645" y="447" width="991" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18871795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -287,8 +295,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -299,6 +306,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -335,189 +343,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517762007791" expanded="true" signature="323:337" ph="..." />
-            <marker date="1517762007791" expanded="true" signature="681:695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517762007791" expanded="true" signature="323:337" ph="..." />
-            <marker date="1517762007791" expanded="true" signature="681:695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517762007791" expanded="true" signature="323:337" ph="..." />
-            <marker date="1517762007791" expanded="true" signature="681:695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TS1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517762007791" expanded="true" signature="323:337" ph="..." />
-            <marker date="1517762007791" expanded="true" signature="681:695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518621292573" expanded="true" signature="626:640" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="695:709" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="764:778" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="833:847" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="902:916" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="971:985" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="1040:1054" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="1108:1122" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="1178:1192" ph="..." />
-            <marker date="1518621292573" expanded="true" signature="1247:1261" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -526,10 +351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS1.php">
+    <entry file="file://$PROJECT_DIR$/Test cases/TS3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        <state relative-caret-position="357">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -568,56 +393,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/rb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="10215" column="5" lean-forward="true" selection-start-line="10197" selection-start-column="4" selection-end-line="10215" selection-end-column="5" />
+        <state relative-caret-position="173655">
+          <caret line="10215" column="5" lean-forward="true" selection-start-line="10197" selection-start-column="4" selection-end-line="10215" selection-end-column="4" />
           <folding>
-            <marker date="1520424611072" expanded="true" signature="6813:6822" ph="..." />
-            <marker date="1520424611072" expanded="true" signature="7463:7474" ph="..." />
-            <marker date="1520424611072" expanded="true" signature="140059:140186" ph="INSERT INTO ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="140456:140497" ph="INSERT INTO ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="142807:142838" ph="ALTER TABLE ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="143491:143508" ph="UPDATE ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="146043:146105" ph="SELECT ${{$f... " />
-            <marker date="1520424611072" expanded="true" signature="146581:146613" ph="SELECT ${{$t... " />
-            <marker date="1520424611072" expanded="true" signature="147630:148057" ph="SELECT ${{$d... " />
-            <marker date="1520424611072" expanded="true" signature="148162:148396" ph="SELECT ${{$d... " />
-            <marker date="1520424611072" expanded="true" signature="149237:149390" ph="SELECT ${{$l... " />
-            <marker date="1520424611072" expanded="true" signature="149520:149621" ph="SELECT ${{$l... " />
-            <marker date="1520424611072" expanded="true" signature="150226:150482" ph="SELECT ${{$t... " />
-            <marker date="1520424611072" expanded="true" signature="151027:151057" ph="SELECT COUNT... $" />
-            <marker date="1520424611072" expanded="true" signature="151566:151802" ph="SELECT COUNT... $" />
-            <marker date="1520424611072" expanded="true" signature="151926:152076" ph="SELECT COUNT... $" />
-            <marker date="1520424611072" expanded="true" signature="152553:152574" ph="DELETE FROM $... " />
-            <marker date="1520424611072" expanded="true" signature="152938:153020" ph="DELETE FROM $... " />
-            <marker date="1520424611072" expanded="true" signature="153114:153165" ph="DELETE FROM $... " />
-            <marker date="1520424611072" expanded="true" signature="153549:153591" ph="ALTER TABLE ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="157799:158901" ph="SELECT infor... key_column_usage" />
-            <marker date="1520424611072" expanded="true" signature="161246:161385" ph="CREATE TABLE... ${$table}" />
-            <marker date="1520424611072" expanded="true" signature="164470:164553" ph="ALTER TABLE ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="166161:166309" ph="ALTER TABLE $... " />
-            <marker date="1520424611072" expanded="true" signature="167379:167404" ph="DROP TABLE I... " />
-            <marker date="1520424611072" expanded="true" signature="169988:170019" ph="DROP TABLE I... " />
-            <marker date="1520424611072" expanded="true" signature="170259:170304" ph="INSERT INTO tmp_backup... " />
-            <marker date="1520424611072" expanded="true" signature="170282:170304" ph="SELECT * FRO... ${$table}" />
-            <marker date="1520424611072" expanded="true" signature="170355:170374" ph="DROP TABLE `... " />
-            <marker date="1520424611072" expanded="true" signature="170780:170869" ph="CREATE TABLE... ${$table}" />
-            <marker date="1520424611072" expanded="true" signature="171267:171312" ph="INSERT INTO `${$table}`... " />
-            <marker date="1520424611072" expanded="true" signature="171288:171312" ph="SELECT * FRO... tmp_backup" />
-            <marker date="1520424611072" expanded="true" signature="171326:171347" ph="DROP TABLE t... " />
-            <marker date="1520424611072" expanded="true" signature="175876:175911" ph="ALTER TABLE `${$table}`... " />
-            <marker date="1520424611072" expanded="true" signature="176505:176585" ph="SELECT name sqlite_master" />
-            <marker date="1520424611072" expanded="true" signature="176727:176787" ph="CREATE TABLE... ${$table}" />
-            <marker date="1520424611072" expanded="true" signature="178760:178772" ph="DELETE FROM ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="179207:179232" ph="DROP TABLE I... " />
-            <marker date="1520424611072" expanded="true" signature="179312:179337" ph="DROP TABLE I... " />
-            <marker date="1520424611072" expanded="true" signature="181479:183502" ph="SELECT infor... key_column_usage" />
-            <marker date="1520424611072" expanded="true" signature="185284:185385" ph="SELECT table... tables" />
-            <marker date="1520424611072" expanded="true" signature="185540:185583" ph="CREATE TABLE... ${$table}" />
-            <marker date="1520424611072" expanded="true" signature="185761:185899" ph="SELECT colum... columns" />
-            <marker date="1520424611072" expanded="true" signature="188516:188528" ph="ALTER TABLE ${$table}... " />
-            <marker date="1520424611072" expanded="true" signature="189015:189114" ph="ALTER TABLE $... " />
-            <marker date="1520424611072" expanded="true" signature="190620:190724" ph="ALTER TABLE $... " />
-            <marker date="1520424611072" expanded="true" signature="191159:191190" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="2888:2897" ph="..." />
+            <marker date="1520433879684" expanded="true" signature="3361:3372" ph="..." />
+            <marker date="1520433879684" expanded="true" signature="131514:131641" ph="INSERT INTO ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="131911:131952" ph="INSERT INTO ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="134262:134293" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="134946:134963" ph="UPDATE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="137498:137560" ph="SELECT ${{$f... " />
+            <marker date="1520433879684" expanded="true" signature="138036:138068" ph="SELECT ${{$t... " />
+            <marker date="1520433879684" expanded="true" signature="139085:139512" ph="SELECT ${{$d... " />
+            <marker date="1520433879684" expanded="true" signature="139617:139851" ph="SELECT ${{$d... " />
+            <marker date="1520433879684" expanded="true" signature="140692:140845" ph="SELECT ${{$l... " />
+            <marker date="1520433879684" expanded="true" signature="140975:141076" ph="SELECT ${{$l... " />
+            <marker date="1520433879684" expanded="true" signature="141681:141937" ph="SELECT ${{$t... " />
+            <marker date="1520433879684" expanded="true" signature="142482:142512" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="143021:143257" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="143381:143531" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="144008:144029" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="144393:144475" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="144569:144620" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="145004:145046" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="149254:150356" ph="SELECT infor... key_column_usage" />
+            <marker date="1520433879684" expanded="true" signature="152701:152840" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="155925:156008" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="157616:157764" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="158834:158859" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="161443:161474" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="161714:161759" ph="INSERT INTO tmp_backup... " />
+            <marker date="1520433879684" expanded="true" signature="161737:161759" ph="SELECT * FRO... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="161810:161829" ph="DROP TABLE `... " />
+            <marker date="1520433879684" expanded="true" signature="162235:162324" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="162722:162767" ph="INSERT INTO `${$table}`... " />
+            <marker date="1520433879684" expanded="true" signature="162743:162767" ph="SELECT * FRO... tmp_backup" />
+            <marker date="1520433879684" expanded="true" signature="162781:162802" ph="DROP TABLE t... " />
+            <marker date="1520433879684" expanded="true" signature="167331:167366" ph="ALTER TABLE `${$table}`... " />
+            <marker date="1520433879684" expanded="true" signature="167960:168040" ph="SELECT name sqlite_master" />
+            <marker date="1520433879684" expanded="true" signature="168182:168242" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="170215:170227" ph="DELETE FROM ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="170662:170687" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="170767:170792" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="172934:174957" ph="SELECT infor... key_column_usage" />
+            <marker date="1520433879684" expanded="true" signature="176739:176840" ph="SELECT table... tables" />
+            <marker date="1520433879684" expanded="true" signature="176995:177038" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="177216:177354" ph="SELECT colum... columns" />
+            <marker date="1520433879684" expanded="true" signature="179971:179983" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="180470:180569" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="182075:182179" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="182614:182645" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
@@ -630,10 +455,277 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test cases/TS9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="1241">
           <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TS1.php" />
+    <entry file="file://$PROJECT_DIR$/login/html/mainpage/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/rb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4641">
+          <caret line="11136" column="0" lean-forward="false" selection-start-line="11136" selection-start-column="0" selection-end-line="11136" selection-end-column="0" />
+          <folding>
+            <marker date="1520433879684" expanded="true" signature="2888:2897" ph="..." />
+            <marker date="1520433879684" expanded="true" signature="3361:3372" ph="..." />
+            <marker date="1520433879684" expanded="true" signature="131514:131641" ph="INSERT INTO ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="131911:131952" ph="INSERT INTO ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="134262:134293" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="134946:134963" ph="UPDATE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="137498:137560" ph="SELECT ${{$f... " />
+            <marker date="1520433879684" expanded="true" signature="138036:138068" ph="SELECT ${{$t... " />
+            <marker date="1520433879684" expanded="true" signature="139085:139512" ph="SELECT ${{$d... " />
+            <marker date="1520433879684" expanded="true" signature="139617:139851" ph="SELECT ${{$d... " />
+            <marker date="1520433879684" expanded="true" signature="140692:140845" ph="SELECT ${{$l... " />
+            <marker date="1520433879684" expanded="true" signature="140975:141076" ph="SELECT ${{$l... " />
+            <marker date="1520433879684" expanded="true" signature="141681:141937" ph="SELECT ${{$t... " />
+            <marker date="1520433879684" expanded="true" signature="142482:142512" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="143021:143257" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="143381:143531" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="144008:144029" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="144393:144475" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="144569:144620" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="145004:145046" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="149254:150356" ph="SELECT infor... key_column_usage" />
+            <marker date="1520433879684" expanded="true" signature="152701:152840" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="155925:156008" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="157616:157764" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="158834:158859" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="161443:161474" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="161714:161759" ph="INSERT INTO tmp_backup... " />
+            <marker date="1520433879684" expanded="true" signature="161737:161759" ph="SELECT * FRO... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="161810:161829" ph="DROP TABLE `... " />
+            <marker date="1520433879684" expanded="true" signature="162235:162324" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="162722:162767" ph="INSERT INTO `${$table}`... " />
+            <marker date="1520433879684" expanded="true" signature="162743:162767" ph="SELECT * FRO... tmp_backup" />
+            <marker date="1520433879684" expanded="true" signature="162781:162802" ph="DROP TABLE t... " />
+            <marker date="1520433879684" expanded="true" signature="167331:167366" ph="ALTER TABLE `${$table}`... " />
+            <marker date="1520433879684" expanded="true" signature="167960:168040" ph="SELECT name sqlite_master" />
+            <marker date="1520433879684" expanded="true" signature="168182:168242" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="170215:170227" ph="DELETE FROM ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="170662:170687" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="170767:170792" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="172934:174957" ph="SELECT infor... key_column_usage" />
+            <marker date="1520433879684" expanded="true" signature="176739:176840" ph="SELECT table... tables" />
+            <marker date="1520433879684" expanded="true" signature="176995:177038" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="177216:177354" ph="SELECT colum... columns" />
+            <marker date="1520433879684" expanded="true" signature="179971:179983" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="180470:180569" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="182075:182179" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="182614:182645" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
