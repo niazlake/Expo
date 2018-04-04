@@ -11,15 +11,13 @@ require 'Init.php';
 $Person = readline_callback_read_char(IntlRuleBasedBreakIterator::Users);
 
 
+$librarian = \RedBeanPHP\Logger\RDefault::class(d2);
+$p1 = RedBean_SimpleModel::class(d1);
+$s = RedBean_SimpleModel::class(d2);
+$v = RedBean_SimpleModel::class(d2);
+$chek = MQSERIES_MQCA_STORAGE_CLASS_DESC(p1,s,v);
 
-$chek1= false;
-$chek2 = ' Name: Elvira Espindola
-Address: Via del Corso, 22
-Phone Number: 30003
-Lib. card ID: 1100
-Type: Student
-(document checked-out, due date):';
-if ($Person[p2] == $chek1 and $Person[p3] == $chek2 ){
+if ($p1 == ["d1","April","30"] and $s == ["d2","April","2"] and $v == ["d2","April","2"]  ){
     echo 'Test Case 4, ok!';
     $result = true;
 }

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cf4763-f531-4e53-bc99-2b50879f8d7c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Test cases/TS10.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Test cases/Init.php" afterPath="$PROJECT_DIR$/Test cases/Init.php" />
-      <change beforePath="$PROJECT_DIR$/all/main.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS1.php" afterPath="$PROJECT_DIR$/Test cases/TS1.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS2.php" afterPath="$PROJECT_DIR$/Test cases/TS2.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS3.php" afterPath="$PROJECT_DIR$/Test cases/TS3.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS4.php" afterPath="$PROJECT_DIR$/Test cases/TS4.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS5.php" afterPath="$PROJECT_DIR$/Test cases/TS5.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS6.php" afterPath="$PROJECT_DIR$/Test cases/TS6.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS7.php" afterPath="$PROJECT_DIR$/Test cases/TS7.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS8.php" afterPath="$PROJECT_DIR$/Test cases/TS8.php" />
+      <change beforePath="$PROJECT_DIR$/Test cases/TS9.php" afterPath="$PROJECT_DIR$/Test cases/TS9.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +27,8 @@
       <file leaf-file-name="TS4.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -28,8 +37,8 @@
       <file leaf-file-name="TS6.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS6.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,8 +47,8 @@
       <file leaf-file-name="TS7.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS7.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -48,8 +57,8 @@
       <file leaf-file-name="TS5.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS5.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -58,8 +67,8 @@
       <file leaf-file-name="TS8.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS8.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -68,96 +77,48 @@
       <file leaf-file-name="TS9.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS9.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+            <state relative-caret-position="136">
+              <caret line="13" column="91" lean-forward="false" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="TS10.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test cases/TS10.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="102">
+              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/rb.php">
+      <file leaf-file-name="TS3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test cases/TS3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4641">
-              <caret line="11136" column="0" lean-forward="false" selection-start-line="11136" selection-start-column="0" selection-end-line="11136" selection-end-column="0" />
-              <folding>
-                <marker date="1520433879684" expanded="true" signature="2888:2897" ph="..." />
-                <marker date="1520433879684" expanded="true" signature="3361:3372" ph="..." />
-                <marker date="1520433879684" expanded="true" signature="131514:131641" ph="INSERT INTO ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="131911:131952" ph="INSERT INTO ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="134262:134293" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="134946:134963" ph="UPDATE ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="137498:137560" ph="SELECT ${{$f... " />
-                <marker date="1520433879684" expanded="true" signature="138036:138068" ph="SELECT ${{$t... " />
-                <marker date="1520433879684" expanded="true" signature="139085:139512" ph="SELECT ${{$d... " />
-                <marker date="1520433879684" expanded="true" signature="139617:139851" ph="SELECT ${{$d... " />
-                <marker date="1520433879684" expanded="true" signature="140692:140845" ph="SELECT ${{$l... " />
-                <marker date="1520433879684" expanded="true" signature="140975:141076" ph="SELECT ${{$l... " />
-                <marker date="1520433879684" expanded="true" signature="141681:141937" ph="SELECT ${{$t... " />
-                <marker date="1520433879684" expanded="true" signature="142482:142512" ph="SELECT COUNT... $" />
-                <marker date="1520433879684" expanded="true" signature="143021:143257" ph="SELECT COUNT... $" />
-                <marker date="1520433879684" expanded="true" signature="143381:143531" ph="SELECT COUNT... $" />
-                <marker date="1520433879684" expanded="true" signature="144008:144029" ph="DELETE FROM $... " />
-                <marker date="1520433879684" expanded="true" signature="144393:144475" ph="DELETE FROM $... " />
-                <marker date="1520433879684" expanded="true" signature="144569:144620" ph="DELETE FROM $... " />
-                <marker date="1520433879684" expanded="true" signature="145004:145046" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="149254:150356" ph="SELECT infor... key_column_usage" />
-                <marker date="1520433879684" expanded="true" signature="152701:152840" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520433879684" expanded="true" signature="155925:156008" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="157616:157764" ph="ALTER TABLE $... " />
-                <marker date="1520433879684" expanded="true" signature="158834:158859" ph="DROP TABLE I... " />
-                <marker date="1520433879684" expanded="true" signature="161443:161474" ph="DROP TABLE I... " />
-                <marker date="1520433879684" expanded="true" signature="161714:161759" ph="INSERT INTO tmp_backup... " />
-                <marker date="1520433879684" expanded="true" signature="161737:161759" ph="SELECT * FRO... ${$table}" />
-                <marker date="1520433879684" expanded="true" signature="161810:161829" ph="DROP TABLE `... " />
-                <marker date="1520433879684" expanded="true" signature="162235:162324" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520433879684" expanded="true" signature="162722:162767" ph="INSERT INTO `${$table}`... " />
-                <marker date="1520433879684" expanded="true" signature="162743:162767" ph="SELECT * FRO... tmp_backup" />
-                <marker date="1520433879684" expanded="true" signature="162781:162802" ph="DROP TABLE t... " />
-                <marker date="1520433879684" expanded="true" signature="167331:167366" ph="ALTER TABLE `${$table}`... " />
-                <marker date="1520433879684" expanded="true" signature="167960:168040" ph="SELECT name sqlite_master" />
-                <marker date="1520433879684" expanded="true" signature="168182:168242" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520433879684" expanded="true" signature="170215:170227" ph="DELETE FROM ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="170662:170687" ph="DROP TABLE I... " />
-                <marker date="1520433879684" expanded="true" signature="170767:170792" ph="DROP TABLE I... " />
-                <marker date="1520433879684" expanded="true" signature="172934:174957" ph="SELECT infor... key_column_usage" />
-                <marker date="1520433879684" expanded="true" signature="176739:176840" ph="SELECT table... tables" />
-                <marker date="1520433879684" expanded="true" signature="176995:177038" ph="CREATE TABLE... ${$table}" />
-                <marker date="1520433879684" expanded="true" signature="177216:177354" ph="SELECT colum... columns" />
-                <marker date="1520433879684" expanded="true" signature="179971:179983" ph="ALTER TABLE ${$table}... " />
-                <marker date="1520433879684" expanded="true" signature="180470:180569" ph="ALTER TABLE $... " />
-                <marker date="1520433879684" expanded="true" signature="182075:182179" ph="ALTER TABLE $... " />
-                <marker date="1520433879684" expanded="true" signature="182614:182645" ph="DROP TABLE I... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Init.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test cases/Init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TS1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TS2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test cases/TS2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TS1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test cases/TS1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -173,17 +134,18 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/db.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS4.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS3.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS8.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS5.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS2.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS1.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS6.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS7.php" />
-        <option value="$PROJECT_DIR$/Test cases/TS9.php" />
         <option value="$PROJECT_DIR$/libs/rb.php" />
         <option value="$PROJECT_DIR$/Test cases/Init.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS1.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS2.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS3.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS4.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS5.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS6.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS7.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS8.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS9.php" />
+        <option value="$PROJECT_DIR$/Test cases/TS10.php" />
       </list>
     </option>
   </component>
@@ -195,9 +157,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="645" />
-    <option name="y" value="447" />
-    <option name="width" value="991" />
+    <option name="x" value="784" />
+    <option name="y" value="124" />
+    <option name="width" value="818" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectView">
@@ -279,18 +241,20 @@
       <workItem from="1518005757595" duration="18000" />
       <workItem from="1520071064188" duration="617000" />
       <workItem from="1520358924727" duration="11742000" />
-      <workItem from="1520433022804" duration="1120000" />
+      <workItem from="1520433022804" duration="1881000" />
+      <workItem from="1522829711313" duration="3368000" />
+      <workItem from="1522847416534" duration="148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14006000" />
+    <option name="totallyTimeSpent" value="18283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="645" y="447" width="991" height="867" extended-state="0" />
+    <frame x="784" y="124" width="818" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18871795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22942643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -343,6 +307,141 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Test cases/TS10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/rb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185402">
+          <caret line="10906" column="0" lean-forward="true" selection-start-line="10906" selection-start-column="0" selection-end-line="10906" selection-end-column="0" />
+          <folding>
+            <marker date="1520433879684" expanded="true" signature="2888:2897" ph="..." />
+            <marker date="1520433879684" expanded="true" signature="3361:3372" ph="..." />
+            <marker date="1520433879684" expanded="true" signature="131514:131641" ph="INSERT INTO ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="131911:131952" ph="INSERT INTO ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="134262:134293" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="134946:134963" ph="UPDATE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="137498:137560" ph="SELECT ${{$f... " />
+            <marker date="1520433879684" expanded="true" signature="138036:138068" ph="SELECT ${{$t... " />
+            <marker date="1520433879684" expanded="true" signature="139085:139512" ph="SELECT ${{$d... " />
+            <marker date="1520433879684" expanded="true" signature="139617:139851" ph="SELECT ${{$d... " />
+            <marker date="1520433879684" expanded="true" signature="140692:140845" ph="SELECT ${{$l... " />
+            <marker date="1520433879684" expanded="true" signature="140975:141076" ph="SELECT ${{$l... " />
+            <marker date="1520433879684" expanded="true" signature="141681:141937" ph="SELECT ${{$t... " />
+            <marker date="1520433879684" expanded="true" signature="142482:142512" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="143021:143257" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="143381:143531" ph="SELECT COUNT... $" />
+            <marker date="1520433879684" expanded="true" signature="144008:144029" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="144393:144475" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="144569:144620" ph="DELETE FROM $... " />
+            <marker date="1520433879684" expanded="true" signature="145004:145046" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="149254:150356" ph="SELECT infor... key_column_usage" />
+            <marker date="1520433879684" expanded="true" signature="152701:152840" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="155925:156008" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="157616:157764" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="158834:158859" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="161443:161474" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="161714:161759" ph="INSERT INTO tmp_backup... " />
+            <marker date="1520433879684" expanded="true" signature="161737:161759" ph="SELECT * FRO... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="161810:161829" ph="DROP TABLE `... " />
+            <marker date="1520433879684" expanded="true" signature="162235:162324" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="162722:162767" ph="INSERT INTO `${$table}`... " />
+            <marker date="1520433879684" expanded="true" signature="162743:162767" ph="SELECT * FRO... tmp_backup" />
+            <marker date="1520433879684" expanded="true" signature="162781:162802" ph="DROP TABLE t... " />
+            <marker date="1520433879684" expanded="true" signature="167331:167366" ph="ALTER TABLE `${$table}`... " />
+            <marker date="1520433879684" expanded="true" signature="167960:168040" ph="SELECT name sqlite_master" />
+            <marker date="1520433879684" expanded="true" signature="168182:168242" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="170215:170227" ph="DELETE FROM ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="170662:170687" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="170767:170792" ph="DROP TABLE I... " />
+            <marker date="1520433879684" expanded="true" signature="172934:174957" ph="SELECT infor... key_column_usage" />
+            <marker date="1520433879684" expanded="true" signature="176739:176840" ph="SELECT table... tables" />
+            <marker date="1520433879684" expanded="true" signature="176995:177038" ph="CREATE TABLE... ${$table}" />
+            <marker date="1520433879684" expanded="true" signature="177216:177354" ph="SELECT colum... columns" />
+            <marker date="1520433879684" expanded="true" signature="179971:179983" ph="ALTER TABLE ${$table}... " />
+            <marker date="1520433879684" expanded="true" signature="180470:180569" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="182075:182179" ph="ALTER TABLE $... " />
+            <marker date="1520433879684" expanded="true" signature="182614:182645" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -475,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,89 +683,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/TS9.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="425">
           <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test cases/Init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/rb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4641">
-          <caret line="11136" column="0" lean-forward="false" selection-start-line="11136" selection-start-column="0" selection-end-line="11136" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="10906" column="0" lean-forward="false" selection-start-line="10906" selection-start-column="0" selection-end-line="10906" selection-end-column="0" />
           <folding>
             <marker date="1520433879684" expanded="true" signature="2888:2897" ph="..." />
             <marker date="1520433879684" expanded="true" signature="3361:3372" ph="..." />
@@ -722,10 +746,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test cases/TS1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="91" lean-forward="false" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test cases/TS10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding />
         </state>
       </provider>

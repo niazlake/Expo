@@ -2,20 +2,14 @@
 
 require 'Init.php';
 $Person = readline_callback_read_char(IntlRuleBasedBreakIterator::Users);
-$Person[p1] . untag(b1);
-$Person[p3] . untag(b1);
-$Person[p1] . untag(b2);
+$p1 = RedBean_SimpleModel::class(d3);
+$p2 = RedBean_SimpleModel::class(d3);
+$s = RedBean_SimpleModel::class(d3);
+$v = RedBean_SimpleModel::class(d3);
+$p3 = RedBean_SimpleModel::class(d3);
+$chek = MQSERIES_MQCA_STORAGE_CLASS_DESC(p1,s,v);
 
-
-if ($librarian . untag(p1) == "Name: Sergey Afonso
-Address: Via Margutta, 3
-Phone Number: 30001
-Lib. card ID: 1010
-Type: Faculty" and $librarian[b1] . untag(April, 1) and $librarian . untag(p3) == "Name: Sergey Afonso
-Address: Via Margutta, 3
-Phone Number: 30001
-Lib. card ID: 1010
-Type: Faculty" and $librarian[b2] . untag(March, 18)){
+if ($chek = [s,v,p3]){
     echo 'Test case 6, ok!';
     $result = true;
 
