@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+  background-size: cover;
+  margin: 0;
+  outline:0;
+  border: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.panel-picture {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  float: left;
+}
+
+.login-page {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  float: right;
+  margin: 0 0 0 50%;
+}
+
+.login {
+  width: 100%;
+  vertical-align: middle;
+  margin: 20% 0 0 0;
+  text-align: center;
+}
+
+.site-name{
+  color: black;
+  font: 35px "Baskerville Old Face", sans-serif;
+  letter-spacing: 0.1em;
+  margin: 0 0 7px;
+}
+
+a:link {
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+  color: black;
+}
+
+h2 {
+  color: black;
+  font: 16px "Source Sans Pro", sans-serif;
+  opacity: 0.3;
+  letter-spacing: 0.05em;
+  max-font-size: 20px;
+  margin: 0;
+}
+
+h3 {
+  color: black;
+  font: 12px "Source Sans Pro", sans-serif;
+  vertical-align: middle;
+  align-items: center;
+  margin: 30px 0 0;
+}
+
+.form {
+  width: 400px;
+  background: #FFFFFF;
+  margin: 25px auto 0 auto;
+  text-align: initial;
+}
+
+.login-form input {
+  font-family: "Source Sans Pro", sans-serif;
+  outline: 0;
+  width: 400px;
+  padding: 30px 0 5px 0;
+  font-size: 12px;
+  border-color: #E9E9F0;
+  border-width: 0 0 1px 0;
+}
+
+.login-name input {
+  font-family: "Source Sans Pro", sans-serif;
+  outline: 0;
+  width: 170px;
+  padding: 30px 0 5px 0;
+  font-size: 12px;
+  border-color: #E9E9F0;
+  border-width: 0 0 1px 0;
+}
+
+.Firstname {
+  width: 170px;
+  float: left;
+}
+.Lastname {
+  width: 170px;
+  float: right;
+}
+
+.rem {
+  outline: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.fog {
+  float: right;
+}
+
+
+.form button {
+  display: block;
+  font-family: "Lora", sans-serif;
+  letter-spacing: 0.07em;
+  width: 185px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #3b2d42;
+
+  border-radius: 2px;
+  outline: 0;
+  border: 1px solid #43425D;
+  padding: 12px;
+  margin: 55px auto 0 auto;
+}
+
+/*
+.form h1 {
+	color: #7E7E7E;
+	font: bold 29px Lora, sans-serif;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 5px 0 25px;
+}
+
+
+.form button {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #9B9BC0;
+  width: 80%;
+  border: 0;
+  padding: 12px;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: contour;
+  margin: 10px 0 10px;
+}
+    <a href="../mainpage/mainpage.html">Forgot password</a>
+.form button:hover,.form button:active,.form button:focus {
+  background: #8c8cc9;
+  vertical-align: middle;
+}*/
