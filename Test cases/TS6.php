@@ -1,4 +1,5 @@
 <?php
+require 'TS4.php';
 
 require 'Init.php';
 $Person = readline_callback_read_char(IntlRuleBasedBreakIterator::Users);
@@ -7,9 +8,9 @@ $p2 = RedBean_SimpleModel::class(d3);
 $s = RedBean_SimpleModel::class(d3);
 $v = RedBean_SimpleModel::class(d3);
 $p3 = RedBean_SimpleModel::class(d3);
-$chek = MQSERIES_MQCA_STORAGE_CLASS_DESC(p1,s,v);
+$result = R::getAll(U_ENUM_OUT_OF_SYNC_ERROR,$l1);
 
-if ($chek = [s,v,p3]){
+if ($result == false){
     echo 'Test case 6, ok!';
     $result = true;
 

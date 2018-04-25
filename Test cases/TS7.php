@@ -7,11 +7,17 @@
  */
 
 require 'Init.php';
-require 'TS6.php';
+require 'TS4.php';
 $Person = readline_callback_read_char(IntlRuleBasedBreakIterator::Users);
-$Person[p1] . untag(d3);
+$p1 = RedBean_SimpleModel::class(d3);
+$p2 = RedBean_SimpleModel::class(d3);
+$s = RedBean_SimpleModel::class(d3);
+$v = RedBean_SimpleModel::class(d3);
+$p3 = RedBean_SimpleModel::class(d3);
+$list = R::useExportCase();
+$result = R::getAll(U_ENUM_OUT_OF_SYNC_ERROR,$l3).tidy_get_status($d3);
 
-if ($Person[p1] == null and $Person[p1,p2] == "Notify" and $Person[s,v,p3].boolval(d3) == "Notify"){
+if ($d3.empty("") == true and set_exception_handler(s,p1,p2) and empty($list[$v3])== true){
     echo 'Test case 7, ok!';
     $result = true;
 }

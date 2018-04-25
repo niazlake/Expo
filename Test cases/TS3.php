@@ -6,18 +6,20 @@
  * Time: 12:34
  */
 
+require 'TS2.php';
 
 require 'Init.php';
-$Person = readline_callback_read_char(IntlRuleBasedBreakIterator::Users);
+$l1 = R::create("d1", 3);
+R::store($l1);
+$l1 = R::create("d2", 3);
+R::store($l1);
+$l1 = R::create("d3", 3);
+R::store($l1);
+$result = R::getAll("INFO", gd_info());
 
-$p1 = RedBean_SimpleModel::class(p1,d1);
-$s =  RedBean_SimpleModel::class(s,d2);
-$v =  RedBean_SimpleModel::class(v,d2);
-$librarioan = R::configureFacadeWithToolbox(p1,s,v);
-if ($p1 == ["d1","April","30"] || s == ["d2","April","16"]|| $v== ["d2","April","9"] ) {
+if (R::count("d1")and R::count("d2") and R::count("d3") and $result == false) {
     echo 'Test case 3 , OK';
     $result = true;
-
 }
 
 

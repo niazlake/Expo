@@ -7,17 +7,28 @@
  */
 
 require 'Init.php';
+require 'libs/rb.php';
+require 'TS2.php';
 
-$Person = readline_callback_read_char(IntlRuleBasedBreakIterator::Users);
+$l2 = R::create("d1", 3);
+R::store($l2);
+$l2 = R::create("d2", 3);
+R::store($l2);
+$l2 = R::create("d3", 3);
+R::store($l2);
+$l2 = R::usePartialBeans("s",1);
+R::store($l2);
+$l2 = R::usePartialBeans("p1", 1);
+R::store($l2);
+$l2 = R::usePartialBeans("p2", 1);
+R::store($l2);
+$l2 = R::usePartialBeans("p3", 1);
+R::store($l2);
+$l2 = R::usePartialBeans("v", 1);
+R::store($l2);
+$result = R::getAll(U_ENUM_OUT_OF_SYNC_ERROR,$l2);
 
-
-$librarian = \RedBeanPHP\Logger\RDefault::class(d2);
-$p1 = RedBean_SimpleModel::class(d1);
-$s = RedBean_SimpleModel::class(d2);
-$v = RedBean_SimpleModel::class(d2);
-$chek = MQSERIES_MQCA_STORAGE_CLASS_DESC(p1,s,v);
-
-if ($p1 == ["d1","April","30"] and $s == ["d2","April","2"] and $v == ["d2","April","2"]  ){
+if($result == true and accelerator_set_status($l2)==true) {
     echo 'Test Case 4, ok!';
     $result = true;
 }

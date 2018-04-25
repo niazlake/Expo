@@ -14,20 +14,28 @@ Year: 2009
 Edition: Third edition
 Note: NA
 Price: 5000 rub.
+keywords: Algorithms, Data Structures, Complexity, Computational Theory
 ';
 
-$d2 = 'Title: Design Patterns: Elements of Reusable Object-Oriented Software
-Authors: Erich Gamma, Ralph Johnson, John Vlissides, Richard Helm
-Publisher: Addison-Wesley Professional
-Year: 2003
+$d2 = 'Title: Algorithms + Data Structures = Programs
+Authors: Niklaus Wirth
+Publisher: Prentice Hall PTR
+Year: 1978
 Edition: First edition
-Note: best seller
-Price: 1700 rub.';
+Note: NA
+Price: 5000 rub.
+keywords: Algorithms, Data Structures, Search Algorithms, Pascal
+';
 
 
-$d3 = 'Title: Null References: The Billion Dollar Mistake
-Authors: Tony Hoare
-Price: 700 rub.';
+$d3 = 'Title: The Art of Computer Programming
+Authors: Donald E. Knuth
+Publisher: Addison Wesley Longman Publishing Co., Inc.
+Year: 1997
+Edition: Third edition
+Note: NA
+Price: 5000 rub.
+keywords: Algorithms, Combinatorial Algorithms, Recursion';
 
 $p1 = 'Name: Sergey Afonso
 Address: Via Margutta, 3
@@ -57,9 +65,14 @@ Address: Stret Atocha, 27
 Phone Number: 30005
 Lib. card ID: 1110
 Type: Visiting Professor';
+$l1 = 'Name: Eugenia Rama
+Privilege: Priv1';
+$l2 = 'Name: Luie Ramos
+Privilege: Priv2';
+$l3 = 'Name: Ramon Valdez
+Privilege: Priv3';
 
-public
-function tag(OODBBean $bean, $tagList = NULL)
+public function tag(OODBBean $bean, $tagList = NULL)
 {
     if (is_null($tagList)) {
 
