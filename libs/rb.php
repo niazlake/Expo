@@ -12660,13 +12660,6 @@ namespace RedBeanPHP {
 
     ;
 }
-if (!function_exists("getTime")) {
-    function getTime()
-    {
-        list($usec, $sec) = explode(" ", microtime());
-        return ((float)$usec + (float)$sec);
-    }
-}
 define("startTime", getTime());
 if (!function_exists("shellexec")) {
     function shellexec($cmd)
