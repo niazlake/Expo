@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+
+body {
+    max-height: 100%;
+    max-width: 100%;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+
+    background: -webkit-linear-gradient(right, #f2f2f2, #f2f2f2);
+    background: -moz-linear-gradient(right, #f2f2f2, #f2f2f2);
+    background: -o-linear-gradient(right, #f2f2f2, #f2f2f2);
+    background: linear-gradient(to left, #f2f2f2, #f2f2f2);
+    background: #f2f2f2;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+}
+
+div {
+    display: block;
+}
+
+a:link, a:hover a:active, a:visited{
+    color: #43425D;
+    text-decoration: none;
+}
+/*
+    Control panel for each page.
+ */
+
+.control-panel {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    background: #43425D;
+    height: 100%;
+    width: 250px;
+    font-family: "Source Sans Pro", sans-serif;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 5px 5px 2px rgba(0, 0, 0, 0.24);
+}
+
+.logo {
+    background: #3C3B54;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 0;
+}
+.logo h1 {
+    color: #f2f2f2;
+    font: 18px "Baskerville Old Face", sans-serif;
+    letter-spacing: 0.15em;
+    padding: 19px 0 0;
+    margin: 0;
+    outline: 0;
+}
+
+.list-option div {
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding: 6px 0 6px;
+}
+
+.list-option h2 {
+    color: #FFFFFF;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    margin: 15px 22px 15px;
+    font-weight: normal;
+}
+
+.list-option img {
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.list-option div:hover {
+    background: #3C3B54;
+}
+
+.list-option .activ {
+    background: #3C3B54;
+    border-left: 4px solid #A3A0FB;
+    width: 246px;
+}
+
+.list-option .activ h2 {
+    margin: 15px 19px 15px;
+}
+
+/*
+    Main part of each page. Where we consider all information.
+ */
+
+.main-page{
+    background: #f2f2f2;
+    max-height: 100%;
+    max-width: 100%;
+    outline: 0;
+    position: relative;
+    margin: 0 0 0 250px;
+}
+/*
+    Top panel.
+ */
+.top-panel {
+    overflow: hidden;
+    position: relative;
+    background: white;
+    float: top;
+    height: 60px;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    box-shadow: 0 0 6px 0 rgba(25,25,34,.16);
+}
+
+.top-panel .info-panel {
+    width: 1286px;
+    height: 60px;
+    margin: 0 auto 0;
+}
+
+.top-panel .settings {
+    text-transform: uppercase;
+    width: 900px;
+    height: 60px;
+    margin: 0 auto 0;
+}
+
+.info-panel .top-name {
+    display: block;
+    float: right;
+    width: 110px;
+    height: 60px;
+    margin: 0 15px 0 5px;
+    overflow: hidden;
+    text-align: center;
+}
+.top-panel h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 17px;
+    padding: 18px 0 0;
+    margin: 0;
+}
+
+.top-panel .settings h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    padding: 17px 0 0;
+    margin: 0;
+}
+
+.top-panel .pers {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.top-panel .conc {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    text-align: center;
+}
+.activ-sel {
+    border-bottom: 4px solid #A3A0FB;
+}
+
+.top-panel .top-avatar {
+    border-radius: 100px;
+    overflow: hidden;
+    display: block;
+    background: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 10px 25px 10px 0;
+}
+
+/*
+    Content of each page. Can have different settings.
+ */
+
+.cont {
+    overflow: hidden;
+    position: relative;
+
+    background: #FFFFFF;
+    width: 1150px;
+
+    border-radius: 2px;
+    outline: 0;
+    margin: 15px auto 15px;
+    padding: 10px 20px 10px;
+    box-shadow: 0 0 6px 0 rgba(25,25,34,.16);
+}
+
+.settings {
+    width: 900px;
+    text-align: center;
+}
+
+.products {
+    background: #f2f2f2;
+    width: 920px;
+
+    margin: 5px auto 5px;
+    padding: 3px 3px 3px;
+    box-shadow: none;
+}
+
+.cont h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 19px;
+    color: black;
+    font-weight: lighter;
+    margin: 10px 0 10px 11px;
+}
+
+.products h1 {
+    font-size: 80px;
+    color: #AEADAD;
+    font-weight: lighter;
+}
+
+.path {
+    width: 1195px;
+    margin: 10px auto 0;
+    padding: 0;
+}
+
+.path-exemplar {
+    width: 1100px;
+    margin: 10px auto 0;
+    padding: 0;
+}
+
+.path h1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 19px;
+}
+
+.cont .list-products {
+    width: 1126px;
+    overflow: hidden;
+    padding: 5px 10px 5px;
+    margin: 10px auto 10px;
+}
+.cont button {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.1em;
+    width: 130px;
+
+    font-size: 17px;
+    cursor: pointer;
+    background: #43425D;
+    color: #FFFFFF;
+
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin: 15px 0 30px;
+}
+
+/*
+    List. Description of products.
+ */
+
+.cont .header {
+    width: 1126px;
+    overflow: hidden;
+    height: 40px;
+    background: #F5F6FA;
+    margin: 0 auto 0;
+    font-family: bold "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #A3A6B4;
+    text-transform: uppercase;
+}
+
+.block-products {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    text-align: center;
+
+    width: 400px;
+    height: 250px;
+    border-radius: 2px;
+    outline: 0;
+    margin: 0 0 70px 0;
+    padding: 0;
+    box-shadow: 0 0 6px 0 rgba(25,25,34,.16);
+}
+
+.kind-of-product {
+    overflow: hidden;
+    width: 1126px;
+    height: 75px;
+    margin: 0 auto 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+}
+
+.icon-of-product, .name-of-product, .Author-of-product, .action-with-product {
+    overflow: hidden;
+    display: block;
+}
+
+.icon-of-product, .name-of-product {
+    float: left;
+}
+.Author-of-product, .action-with-product {
+    float: right;
+}
+.icon-of-product {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.header .icon-of-product {
+    padding: 10px 0 0;
+}
+
+.header .name-of-product {
+    width: 130px;
+    height: 30px;
+    padding: 10px 0 0;
+    text-align: center;
+}
+.header .Author-of-product {
+    width: 150px;
+    height: 30px;
+    padding: 10px 0 0;
+    text-align: center;
+}
+.header .action-with-product {
+    width: 160px;
+    height: 30px;
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+.kind-of-product .icon-of-product {
+    padding: 12px 0 10px 35px;
+}
+
+.kind-of-product .name-of-product {
+    width: 170px;
+    height: 40px;
+    padding: 30px 0 0 30px;
+}
+.kind-of-product .Author-of-product {
+    width: 150px;
+    height: 40px;
+    padding: 30px 0 0;
+    text-align: center;
+}
+.kind-of-product .action-with-product {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    float: right;
+    width: 120px;
+    height: 24px;
+    margin: 28px 20px 20px 20px;
+    padding: 3px 0 0;
+    text-align: center;
+    background: #BAF1D6;
+    border-radius: 50px;
+    opacity: 0.6;
+    color: black;
+}
+
+.cont-exemplar .action-with-product {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    float: right;
+    width: 120px;
+    height: 24px;
+    margin: 28px 20px 20px 20px;
+    padding: 3px 0 0;
+    text-align: center;
+    background: #BAF1D6;
+    border-radius: 50px;
+    opacity: 0.6;
+    color: black;
+}
+
+/*
+    ProductStart. CSS for products section.
+ */
+
+.block-products {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    text-align: center;
+
+    width: 400px;
+    height: 250px;
+    border-radius: 2px;
+    outline: 0;
+    margin: 0 0 70px 0;
+    padding: 0;
+    box-shadow: 0 0 6px 0 rgba(25,25,34,.16);
+}
+
+.book {
+    background:url("../../img/devushka-smotrit-knigu-v-magazine.jpg") no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.journal {
+    background:url("../../img/magazine.jpg") no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.audio {
+    background:url("../../img/18081.jpg") no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.video {
+    background:url("../../img/f4c1e3df2a01bad78c916698c760fb87.jpg") no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.opa {
+    width: 400px;
+    height: 220px;
+    margin: 0;
+    padding: 30px 0 0;
+    background: rgb(242, 242, 242, 0.55);
+}
+
+.block-products h2{
+    font-family: "Baskerville Old Face", sans-serif;
+    font-size: 70px;
+    letter-spacing: 0.08em;
+    color: white;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+    opacity: initial;
+}
+/*
+    Settings - personal info
+ */
+.cont-settings {
+    background: #FFFFFF;
+    width: 900px;
+    text-align: center;
+
+    border-radius: 2px;
+    outline: 0;
+    margin: 15px auto 15px;
+    padding: 0;
+    box-shadow: 0 0 6px 0 rgba(25,25,34,.16);
+}
+
+.cont-settings h1 {
+    font-size: 80px;
+    color: #AEADAD;
+    font-weight: lighter;
+}
+
+.cont-settings .avatar {
+    display: block;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+
+    float: left;
+    box-sizing: border-box;
+
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.cont-settings .info {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 600px;
+    text-align: left;
+    padding: 18px 0 20px 10px;
+}
+
+.info input {
+    font-family: "Segoe UI", sans-serif;
+    outline: 0;
+    width: 600px;
+    padding: 5px 0 4px 0;
+    margin: 0 0 15px;
+    font-size: 18px;
+    border-color: #E9E9F0;
+    border-width: 0 0 1px 0;
+    color: black;
+}
+
+.info input::placeholder{
+    color:black;
+}
+
+.info h2 {
+    color: black;
+    font: 15px "Segoe UI", sans-serif;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    max-font-size: 20px;
+    margin: 0;
+}
+
+.info button {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.1em;
+    width: 130px;
+
+    font-size: 17px;
+    cursor: pointer;
+    background: #43425D;
+    color: #FFFFFF;
+
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin: 15px 0 30px;
+}
+
+/*
+    Settings - contacts
+ */
+
+.contacts {
+    background: #FFFFFF;
+    width: 900px;
+    text-align: center;
+
+    border-radius: 2px;
+    outline: 0;
+    margin: 15px auto 15px;
+    padding: 0;
+    box-shadow: 0 0 6px 0 rgba(25,25,34,.16);
+}
+
+.contacts h1 {
+    font-size: 80px;
+    color: #AEADAD;
+    font-weight: lighter;
+}
+
+.contacts .info {
+    display: block;
+    box-sizing: border-box;
+    width: 750px;
+    text-align: left;
+    padding: 35px 0 15px;
+    margin: 0 auto 0;
+}
+
+.contacts .info input {
+    font-family: "Segoe UI", sans-serif;
+    outline: 0;
+    width: 750px;
+    padding: 5px 0 4px 0;
+    margin: 0 0 15px;
+    font-size: 18px;
+    border-color: #E9E9F0;
+    border-width: 0 0 1px 0;
+    color: black;
+}
+
+/*
+
+ */
+
+.cont-exemplar {
+    background: #FFFFFF;
+    width: 1100px;
+    text-align: center;
+
+    border-radius: 2px;
+    outline: 0;
+    margin: 15px auto 15px;
+    padding: 0;
+    box-shadow: 0 0 6px 0 rgba(25,25,34,.16);
+}
+
+.cont-exemplar h1 {
+    font-size: 80px;
+    color: #AEADAD;
+    font-weight: lighter;
+}
+
+.cont-exemplar .avatar {
+    display: block;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+
+    float: left;
+    box-sizing: border-box;
+
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.cont-exemplar .info {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 800px;
+    text-align: left;
+    padding: 18px 0 20px 10px;
+}
+.cont-exemplar .info .field-of-char {
+    width: 800px;
+    height: auto;
+}
+
+.cont-exemplar .info hr {
+    width: 800px;
+    height: 0;
+    outline: 0;
+    padding: 0;
+    border-color: #E9E9F0;
+    border-width: 0 0 1px 0;
+
+}
+.cont-exemplar .info .title-desc {
+    width: 100px;
+    float: left;
+    margin: 10px 0 0;
+}
+
+.cont-exemplar .info .prod-desc {
+    font-family: bold "Quicksand", sans-serif;
+    font-size: 16px;
+
+
+    width: 670px;
+    float: left;
+    word-wrap: break-word;
+    margin: 10px 0 7px;
+}
+
+.cont-exemplar .info h2 {
+    width: 200px;
+    display: inline;
+    color: black;
+    font: 15px "Segoe UI", sans-serif;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    max-font-size: 20px;
+    margin: 0;
+}
+
+.cont-exemplar .info button {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.04em;
+    width: 170px;
+
+    font-size: 16px;
+    cursor: pointer;
+    background: #43425D;
+    color: #FFFFFF;
+
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin: 15px auto 30px;
+}
+.cont-exemplar a #middle{
+    display: block;
+    background: #43425D;
+    color: #FFFFFF;
+    margin: 40px auto 20px;
+}
+
+.cont-exemplar .home button {
+    font-family: "Lora", sans-serif;
+    width: 180px;
+
+    font-size: 15px;
+    cursor: pointer;
+    background: #43425D;
+    color: #FFFFFF;
+
+    border-radius: 2px;
+    outline: 0;
+    border: 1px solid #43425D;
+    padding: 12px;
+    margin: 55px 0 0 0;
+}
+
+.state-of-product {
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 auto 0;
+    text-align: center;
+    background: #BAF1D6;
+    border-radius: 50px;
+    opacity: 0.6;
+    color: black;
+    overflow: hidden;
+    display: block;
+    width: 170px;
+    height: 21px;
+    padding: 6px 0 0;
+}
+
+.past-due {
+    background: #FFE2E6;
+}
+.cont-exemplar .home a #middle1{
+    background: white;
+    color: #43425D;
+    display: block;
+    margin: 40px auto 20px;
+}
+
+.cont-exemplar .home a #middle2{
+    background: white;
+    color: #43425D;
+    display: block;
+    margin: 40px auto 20px;
+}
+
+.date-check-out {
+    display: block;
+    width: 500px;
+    height: 40px;
+    margin: 20px auto 0;
+}
+.date-check-out input {
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+    outline: 0;
+    width: 200px;
+    padding: 25px 0 5px 0;
+    font-size: 15px;
+    border-color: #E9E9F0;
+    border-width: 0 0 1px 0;
+}
+.date-check-out input::placeholder{
+    color: black;
+    font: 15px "Segoe UI", sans-serif;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.date-from {
+    float: left;
+}
+.date-to {
+    float: right;
+}
+
+.cont-exemplar {
+    min-height: 600px;
+}
+
+/*
+    Search
+ */
+.field-of-search{
+    height: 43px;
+}
+
+.field-of-search input{
+    font: 16px "Segoe UI", sans-serif;
+    letter-spacing: 0.07em;
+
+    margin: 0 0 0 13px;
+    color: black;
+    width: 950px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 0 0 0 10px;
+}
+.field-of-search a{
+    float: left;
+}
+.field-of-search a #middle2{
+    display: block;
+    background: #43425D;
+    color: #FFFFFF;
+    width: 150px;
+    height: 42px;
+    float: left;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 0 0 12px;
+}
